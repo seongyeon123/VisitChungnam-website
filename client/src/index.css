@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black; /* 화면 전체 배경을 검은색으로 설정 */
+  color: white; /* 기본 텍스트 색상을 흰색으로 설정 */
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black; /* 메인 컨테이너 배경을 검은색으로 설정 */
+}

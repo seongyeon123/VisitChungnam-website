@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black; /* 배경을 검정색으로 변경 */
+  }
+  
+  .navbar-left,
+  .navbar-right {
+    flex: 1;
+  }
+  
+  .navbar-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-brand a {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white; /* 텍스트 색상을 흰색으로 변경 */
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar-links a {
+    margin-left: 20px;
+    font-size: 1em;
+    color: white; /* 텍스트 색상을 흰색으로 변경 */
+    text-decoration: none;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .logout-button {
+    margin-left: 20px;
+    font-size: 1em;
+    color: white; /* 텍스트 색상을 흰색으로 변경 */
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    text-decoration: underline;
+  }
+  

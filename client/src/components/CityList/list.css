@@ -1,0 +1,56 @@
+.list-container {
+  padding: 20px;
+  background-color: #000; /* 배경을 검정색으로 변경 */
+}
+
+.list {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.list h1 {
+  text-align: left;
+  margin-bottom: 40px;
+  color: white; /* 텍스트 색상을 흰색으로 변경 */
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: white; /* 텍스트 색상을 흰색으로 변경 */
+  background-color: #333; /* 항목 배경을 어두운 색으로 변경 */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.list-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.list-item-img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.text {
+  flex: 1;
+}
+
+.text h3 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: white; /* 텍스트 색상을 흰색으로 변경 */
+}
+
+.text p {
+  font-size: 1em;
+  color: #ccc; /* 텍스트 색상을 밝은 회색으로 변경 */
+}
